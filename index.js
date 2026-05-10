@@ -1,8 +1,17 @@
-// index.js
-
+/**
+ * index.js - Proyecto TechLab Store
+ * 
+ * Alumno: Troncoso Adolfo Jesús
+ * 
+ * Este programa es una herramienta de consola para gestionar los productos
+ * de una tienda online conectándose a la API de FakeStore.
+ */
 // URL base de la API FakeStore
 const API_URL = 'https://fakestoreapi.com/products';
 
+/**
+ * Función principal asíncrona para manejar la lógica del programa
+ */
 async function main() {
   try {
     // 1. Uso de destructuring y rest operator para capturar los argumentos
